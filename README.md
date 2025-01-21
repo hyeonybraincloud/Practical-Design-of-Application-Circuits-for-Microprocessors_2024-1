@@ -1,4 +1,4 @@
-# Practial Design of Application Circuits for Microprocessors
+# 마이크로프로세서응용회로설계실습(Practial Design of Application Circuits for Microprocessors - C, Linux)
 ## 1. Introduction
 본 프로젝트는 **X-Hyper320TKU**라는 교육용 임베디드 장비로 Keypad, Dot Matrix, CLCD, FND, LED, FND을 제어하여 '4인용 눈치 게임'을 구현한 것이다. X-Hyper320TKU은 CPU 모듈로 PXA320(806Mhz) 프로세서를 사용한다. PXA320 프로세서는 Intel이 설계한 ARMv5TE 기반 XScale 코어를 사용하는 고성능 애플리케이션 프로세서이다. 최대 806Mhz의 클럭 속도를 제공하며, 저전력 설계와 멀티미디어 가속기(MAC)를 포함해 스마트폰, PDA, 산업용 터미널 등 다양한 디바이스에서 멀티미디어 작업과 임베디드 애플리케이션에 최적화된 성능을 발휘한다. 
 
