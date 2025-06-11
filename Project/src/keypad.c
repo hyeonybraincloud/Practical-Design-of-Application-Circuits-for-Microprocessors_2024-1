@@ -16,6 +16,7 @@ int keypad_read(int * key_value) {
 	
 	for( col=0; col<MAX_KEY_COL; col++ ) {
 		*keypad_out = (short)(0x08 >> col);
+		usleep(10000);
 		key_temp = * keypad_in;
 		
 		for( row=0; row<MAX_KEY_ROW; row++ ) {
